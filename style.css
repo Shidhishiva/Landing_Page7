@@ -13,7 +13,7 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#2c2e31, #2b2c31);
+  background: linear-gradient(#eff3f7, #a9b4e9);
   display: grid;
   place-items: center;
 }
@@ -21,7 +21,7 @@ html {
 .landing {
   width: 95%;
   height: 90%;
-  background-color: #242529;
+  background-color: #020b31;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -83,7 +83,7 @@ html {
 .wire {
   width: 0.4rem;
   height: 10rem;
-  background-color: #1e2024;
+  background-color: #cdd0d5;
   position: absolute;
   top: 0;
   left: 50%;
@@ -97,7 +97,7 @@ html {
   position: absolute;
   top: 10rem;
   border-radius: 50% 50% 0 0;
-  background: linear-gradient(#2d3136, #242529);
+  background: linear-gradient(#e9ebee, #717db0);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
@@ -127,11 +127,9 @@ html {
 .light {
   width: 100%;
   height: 50rem;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.3),
-    transparent,
-    transparent
-  );
+  background: linear-gradient(rgba(255, 255, 255, 0.3),
+      transparent,
+      transparent);
   position: absolute;
   top: 19rem;
   left: 50%;
@@ -184,6 +182,39 @@ html {
 .banner-paragraph {
   position: absolute;
   bottom: 30rem;
+  right: 24%;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #6c6d70;
+  letter-spacing: 0.1rem;
+}
+
+.banner-paragraph1 {
+  position: absolute;
+  bottom: 25rem;
+  right: 24%;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #6c6d70;
+  letter-spacing: 0.1rem;
+}
+
+.banner-paragraph2 {
+  position: absolute;
+  bottom: 20rem;
+  right: 24%;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #6c6d70;
+  letter-spacing: 0.1rem;
+}
+
+.banner-paragraph3 {
+  position: absolute;
+  bottom: 15rem;
   right: 24%;
   font-family: "Oswald", sans-serif;
   font-size: 3rem;
